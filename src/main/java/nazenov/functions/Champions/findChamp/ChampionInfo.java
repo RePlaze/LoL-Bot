@@ -44,7 +44,7 @@ public class ChampionInfo {
 
     private String getChampionImage(String championName) {
         return String.format( "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/%s_0.jpg",
-                championName.replaceAll( "'", "" ) );
+                championName );
     }
 
     public void handleUserInput(String chatId, String championName) {
